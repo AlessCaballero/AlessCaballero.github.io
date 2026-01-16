@@ -1,6 +1,19 @@
-img {
-    width: 100%;
-    max-width: 420px;
-    height: auto;
+body {
+    margin: 0;
+    background: #121212;
+    display: flex;
+    justify-content: center;
 }
 
+.contenedor {
+    width: 100%;
+    max-width: 520px; /* controla qué tan grande se ve */
+    padding: 20px;
+}
+
+.contenedor img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
