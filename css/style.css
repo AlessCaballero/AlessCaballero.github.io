@@ -1,19 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    background: #121212;
-    display: flex;
-    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        #e7a1c4 0%,   /* rosado arriba */
+        #9bb7e0 100%  /* azul abajo */
+    );
 }
 
 .contenedor {
     width: 100%;
-    max-width: 520px; /* controla qué tan grande se ve */
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
 }
 
 .contenedor img {
     width: 100%;
+    max-width: 650px;
     height: auto;
     display: block;
-    margin: auto;
 }
+
